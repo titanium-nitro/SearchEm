@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+  <div class="theme-select">
+    <a class="switch-theme">switch theme</a>
+  </div>
+
+
+    <style>
+        body {
+          background-image: url('bg.png');
+        }
+        </style>
+<head>
+  <style>
+  .centre {
+    margin: auto;
+    width: 60%;
+    text-align: center;
+    padding: 10px;
+  }
+</style>
+</head>
+<div class="centre">
+  <img alt="logo" src="logo.png">
+  <img alt="logotwo" src="logo2.gif">
+</div>
+
+<head>
+  <meta charset="UTF-8">
+  <title>searchem - search em all!</title>
+</head>
+<div class="centre">
+  <body>
+    <form action="https://google.com/search" method="GET">
+    <input type="text" name="q" placeholder="type here.."/>
+    <input type="submit" value="search em!">
+  </body>
+  <button type="button" onclick="Trend()";  >What's trending?</button>
+</div>
+<script>
+function Trend() {
+  window.location.href = "https://trends.google.com/trends/";
+}
+
+
+
+</script>
+</html>
